@@ -1,0 +1,8 @@
+{
+  "name": "bom48-cloudflare-seo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}
