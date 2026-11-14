@@ -1,0 +1,24 @@
+# bom48.com/store
+> bom48.com/store — public pages
+
+## Primary
+- [2026/10/19/generative-engine-optimization/](https://bom48.com/store/2026/10/19/generative-engine-optimization/)
+- [2026/10/19/what-is-aeo/](https://bom48.com/store/2026/10/19/what-is-aeo/)
+- [2026/10/19/what-is-ai-visibility/](https://bom48.com/store/2026/10/19/what-is-ai-visibility/)
+- [about/](https://bom48.com/store/about/)
+- [contact-2/free-ai-visibility-audit/](https://bom48.com/store/contact-2/free-ai-visibility-audit/)
+- [contact-2/](https://bom48.com/store/contact-2/)
+- [bom48.com/store](https://bom48.com/store/)
+- [services/advertising/](https://bom48.com/store/services/advertising/)
+- [services/ai-visibility/](https://bom48.com/store/services/ai-visibility/)
+- [services/content-creation/](https://bom48.com/store/services/content-creation/)
+- [services/](https://bom48.com/store/services/)
+- [services/lead-funnel-automation/](https://bom48.com/store/services/lead-funnel-automation/)
+- [services/seo-geo/](https://bom48.com/store/services/seo-geo/)
+- [services/website-design-development/](https://bom48.com/store/services/website-design-development/)
+- [the-deciblog/](https://bom48.com/store/the-deciblog/)
+- [why-decibl/](https://bom48.com/store/why-decibl/)
+
+## Feeds
+- [RSS](https://bom48.com/store/rss.xml)
+- [Sitemap](https://bom48.com/store/sitemap.xml)
